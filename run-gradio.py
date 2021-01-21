@@ -11,6 +11,4 @@ for i in range(80):
     print(i)
     time.sleep(0.2)
  
-raise ValueError("launch fail")
-
 io.launch(debug=True)
