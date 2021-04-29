@@ -9,6 +9,7 @@ io = gradio.Interface(fn=hello, inputs='text', outputs='text', verbose=True, tit
 
 for i in range(80):
     print(i)
-    time.sleep(0.5)
- 
+    time.sleep(1)
+
+raise ValueError()
 io.launch(debug=True)
