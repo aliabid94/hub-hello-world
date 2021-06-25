@@ -2,7 +2,7 @@ import gradio
 import time
 import torch
 
-print("TESTING")
+print("-> GPU COUNT:", torch.cuda.device_count())
 
 def hello(inp):
   if inp == "fail":
